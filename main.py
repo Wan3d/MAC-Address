@@ -74,7 +74,8 @@ def main():
 
     # Show final output
     showData(macAddress, vendorNumber, nameManufacturer)
-    time.sleep(15)
+    
 
 if __name__ == "__main__":
     main()
+    input("Press any key to exit...")
